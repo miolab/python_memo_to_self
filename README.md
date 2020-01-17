@@ -8,6 +8,17 @@
   https://github.com/miolab/python_memo_to_self.git
 
 
+### Index
+- README.md
+
+  - いろいろメモ書き。
+  - 長くなったトピックは、別途ファイルに移していく。
+
+- aws_pipenv.md
+
+  AWS EC2でpipenvとPython3系の開発環境構築
+
+
 # Python開発でよく使うシリーズ
 
 ## pipenv
