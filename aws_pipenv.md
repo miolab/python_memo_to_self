@@ -1,4 +1,4 @@
-# AWSのEC2でのpipenvとPython3系の開発環境構築手順
+# AWSのEC2でのpipenvとPython3系の環境構築手順
 
 順次アップデート。
 
