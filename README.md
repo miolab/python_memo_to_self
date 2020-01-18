@@ -2,12 +2,12 @@
 
 自分用いろいろメモ。
 
-- 順次 整理＆追記。
+- 順次、整理＆追記。
 - GitHub<br>
   https://github.com/miolab/python_memo_to_self.git
 
 
-### __Index__
+## __Index__
 
 #### README.md
 
@@ -92,7 +92,14 @@
 
 `pip install pytest`
 
-`import pytest`
+```
+import pytest
+
+
+# Decorator: Skip
+@pytest.mark.skip(reason = "Sentence_why_skip")
+
+```
 
 ## pytest-watch
 
@@ -103,6 +110,7 @@
 ---
 
 ## os
+## sys
 ## re
 ## time
 ## shutil
