@@ -3,20 +3,20 @@
 自分用いろいろメモ。
 
 - 順次 整理＆追記。
-
 - GitHub<br>
   https://github.com/miolab/python_memo_to_self.git
 
 
-### Index
-- README.md
+### __Index__
 
-  - いろいろメモ書き。
-  - 長くなったトピックは、別途ファイルに移していく。
+#### README.md
 
-- aws_pipenv.md
+- いろいろメモ書き。
+- 長くなったトピックは、別途ファイルに移していく。
 
-  AWS EC2でpipenvとPython3系の開発環境構築
+#### aws_pipenv.md
+
+- AWSのEC2でのpipenvとPython3系の開発環境構築手順
 
 
 # Python開発でよく使うシリーズ
@@ -89,8 +89,18 @@
 ---
 
 ## pytest
+
+`pip install pytest`
+
+`import pytest`
+
 ## pytest-watch
 
+`pip install pytest-watch`
+
+`ptw`
+
+---
 
 ## os
 ## re

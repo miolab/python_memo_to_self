@@ -1,43 +1,47 @@
-# AWS EC2でpipenvとPython3系の開発環境構築
+# AWSのEC2でのpipenvとPython3系の開発環境構築手順
 
-書き中
+順次アップデート。
 
-```
-yum version
+- Python3.6とpipenvをインストール
 
-sudo  yum update
+    ```
+    yum version
 
-yum list | grep python
+    sudo  yum update
 
-sudo yum install -y python36
+    yum list | grep python
 
-vi .bash_profile
+    sudo yum install -y python36
 
-alias python=python3
+    vi .bash_profile
 
-source .bash_profile
+    alias python=python3
 
-python --version
-// Python 3.6.8
+    source .bash_profile
 
-sudo pip install pipenv
-```
+    python --version
+    // Python 3.6.8
 
-```
-mkdir dir_project
+    sudo pip install pipenv
+    ```
 
-cd dir_project
+- プロジェクト用ディレクトリを用意し、pipenvで仮想環境構築
 
-pipenv install
+    ```
+    mkdir dir_project
 
-pipenv --python 3.6
+    cd dir_project
 
-pipenv check
+    pipenv install
 
+    pipenv --python 3.6
 
-```
+    pipenv check
+    ```
 
+- いちおう容量もつど確認
 
-```
-```
+    ```
+    df
+    ```
 
