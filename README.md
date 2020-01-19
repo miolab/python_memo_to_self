@@ -113,7 +113,31 @@ import pytest
 ## sys
 ## re
 ## time
+
 ## shutil
+```
+import shutil
+
+# copy
+shutil.copy("path_file_name", "path_directory_name/")
+
+# move
+shutil.copy("path_file_name", "path_directory_name/")
+```
+
+## pathlib
+```
+from pathlib import Path
+
+# get Absolute path of File
+path = Path("path_dir_name/*.path_file_name")
+
+with path.open() as f:
+    # Operation
+    # e.g.
+    # f.readline()
+    # f.write()
+```
 ## pprint
 
 ## date
