@@ -145,19 +145,27 @@ with path.open() as f:
 
 ## flask
 ## django
+
 ## requests
+import requests
+
+## json
+import json
 
 ## selenium
 ## bs4
 
 ## jupyterlab
+`pip install jupyterlab`
 
 ## numpy
 ## pandas
 ## mecab
 ## opencv-python
 ## pymovie
+
 ## PyInstaller
+`pip install pyinstaller`
 
 ## openxl
 ## xlwings
