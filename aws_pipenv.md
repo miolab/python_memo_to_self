@@ -1,14 +1,23 @@
 # AWSのEC2でのpipenvとPython3系の環境構築手順
 
-順次アップデート。
+- EC2インスタンス起動
+- ssh接続
 
-- Python3.6とpipenvをインストール
+が済んでいるところから、以下スタート。
+
+---
+
+- yumをアップデート（事前準備）
 
     ```
     yum version
 
     sudo  yum update
+    ```
 
+- Python3.6とpipenvをインストール
+
+    ```
     yum list | grep python
 
     sudo yum install -y python36
@@ -45,3 +54,6 @@
     df
     ```
 
+---
+
+順次、説明追記していきます。
