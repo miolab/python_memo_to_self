@@ -18,6 +18,12 @@
 
 - AWSのEC2でのpipenvとPython3系の環境構築手順
 
+#### pyinstaller.md
+
+- Python製スタンドアロンアプリのデプロイ手順（PyInstaller）
+
+
+
 
 # Python開発でよく使うシリーズ
 
