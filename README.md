@@ -23,8 +23,6 @@
 - Python製スタンドアロンアプリのデプロイ手順（PyInstaller）
 
 
-
-
 # Python開発でよく使うシリーズ
 
 ## pipenv

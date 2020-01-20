@@ -22,7 +22,7 @@
     pyinstaller app.py --noconsole --onefile
     ```
 
-  - 軽量化の為、使用しないライブラリ等を含めない方法
+  - 軽量化の為に不要ライブラリ等を抜いておく方法
 
     ```
     pyinstaller app.py --exclude-module=PyQt5 --exclude splite
