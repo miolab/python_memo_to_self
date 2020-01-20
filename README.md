@@ -143,8 +143,6 @@ with path.open() as f:
     # f.write()
 ```
 
-- 標準ライブラリの為、pip install不要。
-
 ## pprint
 
 ## date
@@ -178,6 +176,9 @@ import json
 ## xlwings
 
 ## concurrent.futures
+
+- pip install は不要（標準パッケージ）
+
 ```
 from concurrent.futures as futures
 import os
