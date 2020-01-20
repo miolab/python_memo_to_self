@@ -142,6 +142,9 @@ with path.open() as f:
     # f.readline()
     # f.write()
 ```
+
+- 標準ライブラリの為、pip install不要。
+
 ## pprint
 
 ## date
@@ -175,6 +178,39 @@ import json
 ## xlwings
 
 ## concurrent.futures
+```
+from concurrent.futures as futures
+import os
+
+cores = os.cpu_count()
+executor = futures.ThreadPoolExecutor(max_workers=pc_cores)
+
+
+def function_1():
+    for _ in range(1000):
+        example_method.execute_something_do(*example_arg)
+
+def function_2():
+    for _ in range(1000):
+        example_method.execute_something_do(*example_arg)
+
+def function_3():
+    for _ in range(1000):
+        example_method.execute_something_do(*example_arg)
+
+def function_4():
+    for _ in range(1000):
+        example_method.execute_something_do(*example_arg)
+
+
+if __name__ == "__main__":
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        executor.submit(function_1)
+        executor.submit(function_2)
+        executor.submit(function_3)
+        executor.submit(function_4)
+```
+
 ## sqlalchemy
 
 ## 
