@@ -183,7 +183,7 @@ import json
 from concurrent.futures as futures
 import os
 
-cores = os.cpu_count()
+max_cores = os.cpu_count()
 executor = futures.ThreadPoolExecutor(max_workers=pc_cores)
 
 
@@ -205,7 +205,7 @@ def function_4():
 
 
 if __name__ == "__main__":
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=max_cores) as executor:
         executor.submit(function_1)
         executor.submit(function_2)
         executor.submit(function_3)
