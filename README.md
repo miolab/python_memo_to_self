@@ -166,7 +166,14 @@ import json
 ## numpy
 ## pandas
 ## mecab
+
 ## opencv-python
+```
+pip install opencv-python
+
+import cv2
+```
+
 ## pymovie
 
 ## PyInstaller
@@ -180,11 +187,11 @@ import json
 - pip install は不要（標準パッケージ）
 
 ```
-from concurrent.futures as futures
+from concurrent.futures
 import os
 
 max_cores = os.cpu_count()
-executor = futures.ThreadPoolExecutor(max_workers=pc_cores)
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=pc_cores)
 
 
 def function_1():
