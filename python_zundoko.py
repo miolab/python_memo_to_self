@@ -6,7 +6,7 @@ def fn_zundoko():
     Function:
         Random printing the word "ズン" or "ドコ".
         If "ズン", "ズン", "ズン", "ズン", "ドコ" appear in order,
-        it would return "キ・ヨ・シ！" and program finish.
+        it would return "キ・ヨ・シ！" and finish program.
 
     Parameter:
         array_zundoko (list):
