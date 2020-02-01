@@ -22,6 +22,10 @@
 
 - Python製スタンドアロンアプリのデプロイ手順（PyInstaller）
 
+#### python_zundoko.py
+
+- ズンドコキヨシのPython実装。
+
 
 # Python開発でよく使うシリーズ
 
