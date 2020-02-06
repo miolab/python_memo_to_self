@@ -9,27 +9,29 @@
 
 ## __Index__
 
-#### README.md
+- README.md
 
-- いろいろメモ書き。
-- 長くなったトピックは、別途ファイルに移していく。
+  - いろいろメモ書き。
+  - 長くなったトピックは、別途ファイルに移していく。
 
-#### aws_pipenv.md
+- aws_pipenv.md
 
-- AWSのEC2でのpipenvとPython3系の環境構築手順
+  - AWSのEC2でのpipenvとPython3系の環境構築手順
 
-#### pyinstaller.md
+- pyinstaller.md
 
-- Python製スタンドアロンアプリのデプロイ手順（PyInstaller）
+  - Python製スタンドアロンアプリのデプロイ手順（PyInstaller）
 
-#### python_zundoko.py
+- python_zundoko.py
 
-- ズンドコキヨシのPython実装。
+  - ズンドコキヨシのPython実装。
 
 
-# Python開発でよく使うシリーズ
+---
 
-## pipenv
+## Python開発でよく使うシリーズ
+
+### pipenv
 
 - Init pipenv
     ```
@@ -88,7 +90,7 @@
     ```
 
 
-## poetry
+### poetry
 
 - _
     ```
@@ -96,7 +98,7 @@
 
 ---
 
-## pytest
+### pytest
 
 `pip install pytest`
 
@@ -106,10 +108,9 @@ import pytest
 
 # Decorator: Skip
 @pytest.mark.skip(reason = "Sentence_why_skip")
-
 ```
 
-## pytest-watch
+### pytest-watch
 
 `pip install pytest-watch`
 
@@ -117,12 +118,24 @@ import pytest
 
 ---
 
-## os
-## sys
-## re
-## time
+### os
+### sys
+### re
 
-## shutil
+### time
+```
+time.sleep(1)
+time.sleep(10)
+time.sleep(60)
+```
+
+### threading
+`from threading import Timer`
+```
+Timer(sec, function)
+```
+
+### shutil
 ```
 import shutil
 
@@ -133,7 +146,8 @@ shutil.copy("path_file_name", "path_directory_name/")
 shutil.copy("path_file_name", "path_directory_name/")
 ```
 
-## pathlib
+
+### pathlib
 ```
 from pathlib import Path
 
@@ -147,46 +161,57 @@ with path.open() as f:
     # f.write()
 ```
 
-## pprint
+### pprint
 
-## date
-## datetime
+### date
 
-## flask
-## django
+### datetime
 
-## requests
+### flask
+
+### django
+
+### requests
+- `pip install requests`
+```
 import requests
+```
 
-## json
+
+### json
 import json
 
-## selenium
-## bs4
+### selenium
 
-## jupyterlab
+### bs4
+`pip install bs4`
+```
+from bs4 import BeautifulSoup as bs
+```
+
+### jupyterlab
 `pip install jupyterlab`
 
-## numpy
-## pandas
-## mecab
+### numpy
+### pandas
+### mecab
 
-## opencv-python
+### opencv-python
 ```
 pip install opencv-python
 
 import cv2
 ```
 
-## pymovie
+### pymovie
 
-## PyInstaller
+### PyInstaller
 `pip install pyinstaller`
 
-## openxl
-## xlwings
+### openxl
+### xlwings
 
-## concurrent.futures
+### concurrent.futures
 
 - pip install は不要（標準パッケージ）
 
@@ -223,8 +248,8 @@ if __name__ == "__main__":
         executor.submit(function_4)
 ```
 
-## sqlalchemy
+### sqlalchemy
 
-## 
-## 
-## 
+### 
+### 
+### 
