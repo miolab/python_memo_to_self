@@ -169,6 +169,19 @@ with path.open() as f:
 
 ### flask
 
+- バージョン確認
+    ```
+    python
+    .
+    .
+    .
+    >>> import flask
+    >>> flask.__version__
+    '1.1.1'
+    ```
+    `$ python` で入って、`flask.__version__`で確認.
+
+
 ### django
 
 ### requests
