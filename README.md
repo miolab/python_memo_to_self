@@ -1,13 +1,11 @@
 # python_memo_to_self
 
-自分用いろいろメモ。
+- 自分用いろいろメモ。
+- 順次整理。
 
-- 順次、整理＆追記。
-- GitHub<br>
-  https://github.com/miolab/python_memo_to_self.git
+---
 
-
-## __Index__
+## 💻 __Index__
 
 - README.md
 
@@ -29,7 +27,7 @@
 
 ---
 
-## Python開発でよく使うシリーズ
+## 💻 Python開発でよく使うシリーズ
 
 ### pipenv
 
@@ -167,6 +165,8 @@ with path.open() as f:
 
 ### datetime
 
+### gunicorn
+
 ### flask
 
 - バージョン確認
@@ -260,6 +260,8 @@ if __name__ == "__main__":
         executor.submit(function_3)
         executor.submit(function_4)
 ```
+
+### FastAPI
 
 ### sqlalchemy
 
